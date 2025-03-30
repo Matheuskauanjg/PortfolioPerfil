@@ -1,46 +1,105 @@
-# Getting Started with Create React App
+# Portfólio de Matheus Kauan Pinto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um site de portfólio pessoal interativo e moderno, criado com React, TypeScript, Material UI e Three.js.
 
-## Available Scripts
+![Portfólio](https://placehold.co/800x400/3498db/FFFFFF?text=Portf%C3%B3lio+Interativo)
 
-In the project directory, you can run:
+## 🚀 Funcionalidades
 
-### `npm start`
+- **Design Responsivo**: Interface adaptada para todos os tamanhos de tela
+- **Tema Escuro**: Visual elegante com tema escuro e gradientes
+- **Animações 3D**: Elementos visuais interativos criados com Three.js
+- **Player de Música**: Reprodução de música lofi para ambientação
+- **Seções Completas**:
+  - Apresentação
+  - Sobre
+  - Habilidades
+  - Projetos
+  - Contato
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Tecnologias Utilizadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React**: Biblioteca JavaScript para construção de interfaces
+- **TypeScript**: Tipagem estática para código mais seguro e manutenível
+- **Material UI**: Biblioteca de componentes para um design moderno
+- **Three.js**: Biblioteca para criação de gráficos 3D
+- **React Router**: Navegação entre páginas
+- **Styled Components**: Estilização avançada de componentes
 
-### `npm test`
+## ⚙️ Instalação e Uso
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pré-requisitos
+- Node.js (versão 16 ou superior)
+- npm ou yarn
 
-### `npm run build`
+### Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone o repositório
+git clone https://github.com/Matheuskauanjg/portfolio.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Entre no diretório
+cd portfolio
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Instale as dependências
+npm install
+# ou
+yarn install
 
-### `npm run eject`
+# Inicie o servidor de desenvolvimento
+npm start
+# ou
+yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+O projeto estará rodando em `http://localhost:3000`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📂 Estrutura do Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+/src
+  /components        # Componentes reutilizáveis
+    /layout          # Componentes de layout (Header, Footer, etc)
+    /three           # Componentes relacionados ao Three.js
+    CustomComponents.tsx # Componentes Material UI customizados
+  /pages             # Páginas da aplicação
+  /styles            # Estilos globais
+  /types             # Definições de tipos TypeScript
+  /assets            # Imagens e outros recursos
+  App.tsx            # Componente principal
+  index.tsx          # Ponto de entrada
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🎮 Recursos Interativos
 
-## Learn More
+- **Animações 3D**: Um fundo interativo com estrelas e esferas animadas
+- **Animações de Entrada**: Elementos aparecem com efeitos de slide e fade
+- **Música de Fundo**: Player de música ambiente que pode ser controlado pelo usuário
+- **Cards de Projetos**: Interface interativa para visualizar detalhes dos projetos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📱 Responsividade
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+O site foi desenvolvido com foco em responsividade, adaptando-se perfeitamente a:
+- Desktops e laptops
+- Tablets
+- Smartphones
+
+## 🎨 Paleta de Cores
+
+O design utiliza uma paleta de cores escuras com destaques em gradientes:
+- Fundo principal: Tons escuros (#1e1e1e)
+- Detalhes e gradientes: Roxo (#8e44ad) e Azul (#3498db)
+- Texto: Branco e cinza claro para melhor contraste
+
+## 📬 Contato
+
+- **GitHub**: [Matheuskauanjg](https://github.com/Matheuskauanjg)
+- **LinkedIn**: [LinkedIn](https://linkedin.com/in/matheus-kauan)
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+
+---
+
+Desenvolvido com 💜 por Matheus Kauan Pinto
